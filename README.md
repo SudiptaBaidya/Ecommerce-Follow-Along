@@ -50,6 +50,26 @@ This e-commerce application is a full-stack project built using the MERN stack. 
 - Share the GitHub repository link in the assignment submission.
 - Include a README file summarizing Milestone 1: Project Overview.
 
+### 🏁 Milestone 1: Laying the Foundation
+✅ Initialized the project structure for both frontend and backend.
+✅ Installed necessary dependencies for React, Node.js, and Express.
+✅ Set up a basic server in *Node.js* using *Express.js*.
+✅ Configured *environment variables* for secure credentials.
+
+---
+
+### 🏁 Milestone 2: Structuring the Project & UI Setup
+✅ *Separated frontend and backend folders* for modular development.
+✅ Created a *functional login page* in the frontend using React.js.
+✅ Installed and configured *Tailwind CSS* for responsive UI design.
+
+---
+
+### 🏁 Milestone 3: Backend Configuration & Database Connection
+✅ Organized the *backend folder structure* for scalability.
+✅ Connected the *server to MongoDB* using Mongoose.
+✅ Implemented *error-handling middleware* for API stability.
+
 ## ⏭️ Next Steps
 - **Set Up Development Environment** – Install tools and dependencies.
 - **Understand Server-Client Interaction** – Learn how APIs connect the frontend and backend.
