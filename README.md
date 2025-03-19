@@ -96,5 +96,8 @@ If you'd like to contribute:
 * Created the **AddProducts** page in Frontend.
 * Added form Validation in AddProducts page.
 
-
+# Milestone 10: Created Schema Product Upload
+* Created **ProductModel** in backend.
+* Created the **productRouter** page in Backend.
+* Handeled file uploads by multer inside middleware multer.
 
