@@ -92,6 +92,9 @@ If you'd like to contribute:
 * added comparision for checking password is correct or not in login backend.
 
 
+# Milestone 9: Created Form For Product Upload
+* Created the **AddProducts** page in Frontend.
+* Added form Validation in AddProducts page.
 
 
 
