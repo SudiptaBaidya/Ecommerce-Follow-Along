@@ -103,5 +103,4 @@ If you'd like to contribute:
 
 # Milestone 11: Created Homepage For Products
 * Created **Home Page** for dynamic product presentation
-* Created the **productRouter** page in Backend.
-* Handeled file uploads by multer inside middleware multer.
+* Added the **backend** part for handeling products (Created  end point to get products).
