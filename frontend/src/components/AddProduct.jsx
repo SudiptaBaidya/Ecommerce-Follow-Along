@@ -11,7 +11,7 @@ const AddProduct = () => {
     });
     const [productImages,setProductImages] = useState([]);
 
-    async function handleSubmit(){
+    async function handleSubmit(e){
         try {
             const {name, email, password} = productDetails;
             if (!name || !email || !password || productImages.length == 0) {
@@ -19,13 +19,7 @@ const AddProduct = () => {
                 return;
             }
             const formData = new FormData();
-            formData.append('name', name);
-            formData.append('email', email);
-            formData.append('password', password);
-            productImages.forEach((image, index) => {
-                formData.append(`image${index + 1}`, image);
-            });
-            await axios.post("http://localhost:8080/product/addproduct", formData);
+            await axios.post("http://localhost:8080/product/addproduct");
         } catch (error) {
             console.log(error);
             alert("something wenrt wrong");
@@ -34,7 +28,7 @@ const AddProduct = () => {
     }
   return (
     <div>
-        <form action="" onSubmit={handleSubmit}>
+        <form action="">
             <input type="text" name={"title"} placeholder='enter title ....' onChange={(event)=>{
                 setProductDetails({...productDetails,[event.target.name]:event.target.value});
             }}/>
@@ -57,8 +51,8 @@ const AddProduct = () => {
             </select>
             <label htmlFor="">Add Images</label>
             {
-                [...Array(noOfImages)].map((_, i) => (
-                    <input key={i} type="file" accept='image/*' onChange={(event)=>{
+                [...Array(noOfImages)].map((_, index) => (
+                    <input type="file" accept='image/*' onChange={(event)=>{
                         setProductImages([...productImages,event.target.files[0]]);
                     }} />
                 ))

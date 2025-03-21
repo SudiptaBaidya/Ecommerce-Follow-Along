@@ -4,7 +4,7 @@ import { useState ,useEffect } from 'react';
 import Card from './Card';
 import styles from './products.module.css'
 
-const Products = () => {
+const products = () => {
   const [products,setProducts] = useState([]);
 
     function getData(){
@@ -32,4 +32,4 @@ const Products = () => {
   )
 }
 
-export default Products
+export default products
