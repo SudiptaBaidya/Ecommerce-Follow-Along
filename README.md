@@ -104,3 +104,7 @@ If you'd like to contribute:
 # Milestone 11: Created Homepage For Products
 * Created **Home Page** for dynamic product presentation
 * Added the **backend** part for handeling products (Created  end point to get products).
+
+# Milestone 12: Showing product according to user
+* Created **Product Page** for dynamic product presentation accordig to user mail.
+* created backend for specific user products.
