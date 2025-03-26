@@ -108,3 +108,7 @@ If you'd like to contribute:
 # Milestone 12: Showing product according to user
 * Created **Product Page** for dynamic product presentation accordig to user mail.
 * created backend for specific user products.
+
+# Milestone 13: 
+* Created**Product Update Endpoint** for updating Products.
+* Created form for updating data in frontend and created autofill function.

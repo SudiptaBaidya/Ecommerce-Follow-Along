@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-
+import styles from "./addproduct.module.css";
 
 const AddProduct = () => {
     const [noOfImages, setNoOfImages] = useState(new Array(1).fill(1));
@@ -19,7 +19,13 @@ const AddProduct = () => {
                 return;
             }
             const formData = new FormData();
-            await axios.post("http://localhost:8080/product/addproduct");
+            formData.append("name",name);
+            formData.append("email",email);
+            formData.append("password",password);
+            for(let i=0;i<productImages.length;i++){
+                formData.append("image",productImages[i]);
+            }
+            await axios.post("http://localhost:8080/product/addproduct",formbox);
         } catch (error) {
             console.log(error);
             alert("something wenrt wrong");
@@ -28,7 +34,7 @@ const AddProduct = () => {
     }
   return (
     <div>
-        <form action="">
+        <form action="" className={styles.formbox}>
             <input type="text" name={"title"} placeholder='enter title ....' onChange={(event)=>{
                 setProductDetails({...productDetails,[event.target.name]:event.target.value});
             }}/>

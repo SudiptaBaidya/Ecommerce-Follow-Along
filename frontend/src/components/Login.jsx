@@ -24,16 +24,17 @@ const Login = () => {
             return;
         }
         try {
-            const checkUser = await axios("http://localhost:8080/user/login",loginData);
-            console.log(checkUser);
-            localStorage.setItem("follow-along-auth-token",JSON.stringify(checkUser.data.token));
+            const checkUser = await axios.post("http://localhost:8080/user/login",loginData);
+           console.log(checkUser)
+           localStorage.setItem("follow-along-auth-token-user-name-id",JSON.stringify({token:checkUser.data.token,name:checkUser.data.name,id:checkUser.data.id}))
             alert("You sucessfully loged in");
         } catch (error) {
             console.log(error);
-            alert("Something went wromg while login");
+            alert("Someting went wrong while logging in");
         }
 
 
+        
     }
 
   return (

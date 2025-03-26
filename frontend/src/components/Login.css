@@ -67,3 +67,15 @@ body {
     margin-bottom: 1.5rem;
     color: #333;
   }
+
+  .formbox{
+    border: 3px solid;
+    width: max-content;
+    margin: auto;
+    padding: 2rem;
+  }
+
+  .formbox > *{
+    display: block;
+    margin: auto;
+  }
