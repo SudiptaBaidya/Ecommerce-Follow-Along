@@ -112,3 +112,7 @@ If you'd like to contribute:
 # Milestone 13: 
 * Created**Product Update Endpoint** for updating Products.
 * Created form for updating data in frontend and created autofill function.
+
+# Milestone 18: 
+* Created cart page in frontend 
+* Handled cart operation from  frontend.
