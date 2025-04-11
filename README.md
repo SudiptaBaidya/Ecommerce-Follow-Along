@@ -116,3 +116,8 @@ If you'd like to contribute:
 # Milestone 18: 
 * Created cart page in frontend 
 * Handled cart operation from  frontend.
+
+# Milestone 19: 
+* Created endpoint for quantity of the cart items. 
+*
+
