@@ -121,3 +121,7 @@ If you'd like to contribute:
 * Created endpoint for quantity of the cart items. 
 *
 
+# Milestone 21: 
+* Created route for add address page in frontend.
+* Create form for adding address.
+*stored address using useState Hook.
