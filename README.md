@@ -125,3 +125,13 @@ If you'd like to contribute:
 * Created route for add address page in frontend.
 * Create form for adding address.
 *stored address using useState Hook.
+
+# Milestone 25
+* Created *endpoint for order*.
+* Implemented *mail service* for nodemailer.
+* Handled *address* for delivery.
+
+
+### **🛠 Milestone 26: Worked on order backend and mail service
+✅ Implemented mail with nodemailer
+✅ Sending order details to user via mail
