@@ -135,3 +135,8 @@ If you'd like to contribute:
 ### **🛠 Milestone 26: Worked on order backend and mail service
 ✅ Implemented mail with nodemailer
 ✅ Sending order details to user via mail
+
+
+
+# Milestone 27
+* Created GET req to get my orders
