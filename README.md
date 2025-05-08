@@ -140,3 +140,15 @@ If you'd like to contribute:
 
 # Milestone 27
 * Created GET req to get my orders
+
+
+### *🛠 Milestone 30: Created Order page in frontend*
+✅ Created a payment gateway for payment of order.
+✅ Created an endpoint for payment.
+✅ Created an endpoint for payment verification.
+✅ Created a success page for payment.
+✅ Created a failure page for payment.
+
+### **🛠 Milestone 31: Redux Implementation
+✅ Implemented redux in frontend
+✅ Use redux in user details page.
